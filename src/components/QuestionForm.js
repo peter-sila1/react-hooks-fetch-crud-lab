@@ -84,10 +84,11 @@ function QuestionForm(props) {
             <option value="3">{formData.answer4}</option>
           </select>
         </label>
-        <button type="submit">Add Question</button>
+        <button type="submit" onClick={handleSubmit}>Add Question</button>
       </form>
     </section>
   );
 }
 
 export default QuestionForm;
+
